@@ -1,0 +1,232 @@
+@font-face{
+     src:url(../fonts/Raleway-Bold.ttf);
+     font-family: raleway-bold;
+    }
+    @font-face{
+        src:url(../fonts/Raleway-Medium.ttf);
+        font-family: raleway-medium;
+       }
+       @font-face{
+        src:url(../fonts/Raleway-SemiBold.ttf);
+        font-family: raleway-semi-bold;
+       } 
+       @font-face{
+        src:url(../fonts/Raleway-ExtraLight.ttf);
+        font-family: raleway-extralight;
+       }
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/* HOME */
+.home{
+    height: 950px;
+    width: 100%;
+    background-image: url(../images/home.jpg);
+}
+.navbar{
+    width: 45%;
+    margin-left: 50%;
+}
+.home .img{
+    width: 650px;
+    margin-left: 400px;
+    margin-top: 500px;
+}
+/* SECTIONS */
+.body{
+    height: 100%;
+    width: 70%;
+   margin-left: 400px;
+    
+
+}
+/* SEC 1 */
+.cQuoi .titre{
+    margin-top: 40px;
+    font-family: raleway-bold;
+    font-size: 22px;
+}
+.cQuoi .corp{
+    display: inline-block;  
+}
+.cQuoi .desc{
+
+    margin-top: 40px;
+    font-family: raleway-medium ;
+    display: inline-block;
+    font-size: 20px;
+    text-align: justify;
+    text-justify: inter-word;
+   
+}
+.cQuoi .img{
+    float: right;
+    margin-top: 50px;
+    
+}
+/* SEC 2 */
+
+.lesBien{
+   height: 100%;
+}
+.secRight,.secLeft{
+    display: inline-block;
+
+}
+.secRight{
+margin-top: 50px;
+margin-left: 0px;
+
+}
+.secRight img{
+margin-top: 50px;
+width: 500px;
+}
+.secRight h2{
+    font-family: raleway-bold;
+}
+.secLeft{
+    margin-top: 70px;
+}
+.icon{
+    margin-top: 100px;
+}
+.icon h3{
+    margin-left: 134px;
+    padding-top: 29px;
+    font-family: raleway-medium ;
+
+}
+.icon h3 span{
+    font-family: raleway-semi-bold  ;
+}
+
+.icon img{
+    float: left;
+    
+    
+}
+/* NOS PRODUIT SECTION */
+.nosProduit{
+    margin-top: 50px;
+   
+}
+.blocs{
+    margin-bottom: 50px;
+}
+.nosProduit p{
+    
+  margin-bottom: 0px;
+  font-family : raleway-extralight;
+ 
+}
+.nosProduit h2{
+    margin-bottom: 100px;
+    font-family :raleway-medium;
+}
+.finP{
+    margin-left: 20px;
+}
+.nosProduit img{
+   margin-left: 50px;
+    width: 50px;
+    margin-bottom: 20px;
+}
+/* contactUs section  */
+.contactUs{
+    margin-bottom: 80px;
+}
+.contactUs .leftSide  img{
+    float: left;
+}
+.contactUs .leftSide  p{
+   padding-left: 80px;
+   padding-top: 20px;
+   font-family: raleway-medium ;
+  
+}
+.icons{
+    margin-top: 50px;
+}
+.title{
+    margin-left: 350px;
+}
+.video{
+    margin-left: 250px;
+}
+/* Footer section  */
+.footer{
+   
+    height: 100%    ;
+    background-image: url(../images/Calque\ 25.png);
+    widows: 100%;
+}
+.details{
+    /* margin-left: 350px;
+    margin-top: 30px; */
+   
+}
+.footer .details img{
+    margin-bottom: 10px;
+}
+.footer .details p{
+    font-family: raleway-medium ;
+    color: white;
+    width: 60%;
+    margin-right: 0;
+}
+.imgFooter{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+/* responsive */
+@media(max-width :768px){
+   body{
+       margin:auto;
+   }
+    .footer{
+       display: none;
+    }
+    .aa{
+        margin-left: 0px;
+    }
+    .body{
+        margin:auto;
+        width:100%;
+    }
+    .home .img{
+       display: none;
+    }
+    .home{
+        height: 950px;
+        width: 500px;
+        background-image: url(../images/home.jpg);
+    }
+    .footer .details p{
+        width:100%;
+    }
+    .video{
+        margin-left: 0;
+    }
+    .title{
+        margin:auto;
+    }
+    .secRight img{
+        margin:auto;
+        margin-left: 80px;
+        width: 200px;
+        }
+        .cQuoi .desc{
+            width: 400px;;
+        }
+.bloc{
+margin-left: 50px;
+}
+.navbar{
+  margin:auto;
+}
+   
+}
